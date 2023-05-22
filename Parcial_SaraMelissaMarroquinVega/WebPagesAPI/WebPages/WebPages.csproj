@@ -2,8 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Parcial_SaraMelissaMarroquinVega\DAL\Entities\Ticket.cs" Link="Models\Ticket.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="ServiceStack" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Parcial_SaraMelissaMarroquinVega\Parcial_SaraMelissaMarroquinVega.csproj" />
+  </ItemGroup>
 
 </Project>
