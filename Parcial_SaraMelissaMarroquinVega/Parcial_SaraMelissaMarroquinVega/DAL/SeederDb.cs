@@ -21,7 +21,7 @@ namespace Parcial_SaraMelissaMarroquinVega.DAL
         {
             if (!_context.Tickets.Any())
             {
-                for (int i = 0; i < 50000; i++)
+                for (int i = 0; i < 200; i++)
                 {
                     _context.Tickets.Add(
                         new Ticket
